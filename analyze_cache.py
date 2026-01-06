@@ -283,7 +283,7 @@ def analyze_files(file1_path=None, file2_path=None, output_path=None):
                 elif choice_type == 'file2_default':
                     print(f"默認選擇檔案２: {count} 項")
                 elif choice_type == 'file2_auto':
-                    print(f"自動選擇檔案２: {count} 項"))
+                    print(f"自動選擇檔案２: {count} 項")
         
         if skipped_conflicts:
             print(f"完全跳過的衝突: {len(skipped_conflicts)} 項")
