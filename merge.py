@@ -260,7 +260,7 @@ def analyze_files(file1_path=None, file2_path=None, output_path=None):
     # 保存合併檔案
     try:
         with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(merged_cache, f, ensure_ascii=False, separators=(',', ':'))
+            json.dump(merged_cache, f, ensure_ascii=False, separators=(',', ':'), indent=2)
         print(f"\n=== 合併結果 ===")
         print(f"合併後總條目數: {len(merged_cache)}")
         print(f"追加的新條目數: {len(unique_to_file2)}")
