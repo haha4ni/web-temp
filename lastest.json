@@ -583,8 +583,8 @@
   },
   "OzPwDPPbWQI":{
     "album":"孑然记",
-    "albumArtist":null,
-    "artist":"KBShinya×兰音Reine",
+    "albumArtist":"KBShinya & 兰音Reine",
+    "artist":"KBShinya & 兰音Reine",
     "track":"孑然记"
   },
   "PcGZqnKkozU":{
@@ -1273,7 +1273,7 @@
   },
   "OFACGMsPMbk":{
     "album":"月牙灣",
-    "albumArtist":null,
+    "albumArtist":"泠鸢yousa",
     "artist":"泠鸢yousa",
     "track":"月牙灣"
   },
@@ -1932,10 +1932,10 @@
     "track":"瘋癲少女"
   },
   "Da-gWaZ97fU":{
-    "album":"折风渡夜Reine",
+    "album":"折风渡夜",
     "albumArtist":null,
-    "artist":"兰音",
-    "track":"折风渡夜Reine"
+    "artist":"兰音Reine",
+    "track":"折风渡夜"
   },
   "lOX9uwntag0":{
     "album":"兰之韵",
@@ -1992,10 +1992,10 @@
     "track":"海海海"
   },
   "NVMZU4ZD5KU":{
-    "album":"捞秋月",
+    "album":"千年泪",
     "albumArtist":null,
     "artist":"兰音Reine",
-    "track":"捞秋月"
+    "track":"千年泪"
   },
   "nWlFO3cCRvw":{
     "album":"盗墓笔记 十年人间",
@@ -2224,5 +2224,203 @@
     "albumArtist":null,
     "artist":"森森鈴蘭 ",
     "track":"捕夢謊"
+  },
+  "ue1ZA4RUSRM":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"志方あきこ",
+    "track":"朱隠し"
+  },
+  "I6ZeDBFooBM":{
+    "album":"寂寞红尘",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"寂寞红尘"
+  },
+  "y_8nhRTzoBI":{
+    "album":"人间烟火",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"人间烟火"
+  },
+  "oEKWgS1P2GU":{
+    "album":"嗵嗵",
+    "albumArtist":"Doudou",
+    "artist":"Doudou",
+    "track":"嗵嗵"
+  },
+  "MmD0jWlPWU4":{
+    "album":"兰梦循音",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"陨焰"
+  },
+  "LbcwjaPOrMs":{
+    "album":"樂隊的夏天3",
+    "albumArtist":null,
+    "artist":"橘子海",
+    "track":"夏日漱石"
+  },
+  "b1BptlMl-xM":{
+    "album":"Jabberwocky",
+    "albumArtist":null,
+    "artist":"Erutan",
+    "track":"Jabberwocky"
+  },
+  "slVfO8jZaUk":{
+    "album":"身騎白馬",
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"身騎白馬"
+  },
+  "BV1WQMZzGE6E":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音",
+    "track":"幻境中"
+  },
+  "tHk9W6vTTYI":{
+    "album":"镜中渊",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"镜中渊"
+  },
+  "TEGv9mLERGc":{
+    "album":"耳鬼出风",
+    "albumArtist":"回春丹",
+    "artist":"回春丹",
+    "track":"梦特别娇"
+  },
+  "Km6dMeCYEeY":{
+    "album":"华北浪革",
+    "albumArtist":"刘森",
+    "artist":"刘森",
+    "track":"废柴"
+  },
+  "F0fDEwVWFk4":{
+    "album":"花",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"花"
+  },
+  "GstY_pl2kZU":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"三无Marblue",
+    "track":"棲凰"
+  },
+  "JtTEs_yxe7k":{
+    "album":"兰梦循音",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"爱的供养"
+  },
+  "IB2eAMcSLTw":{
+    "album":"爱殇",
+    "albumArtist":"阿梓",
+    "artist":"阿梓",
+    "track":"爱殇"
+  },
+  "EhBK6lmea7w":{
+    "album":"兴奋到死的东西",
+    "albumArtist":"回春丹",
+    "artist":"回春丹",
+    "track":"兴奋到死的东西"
+  },
+  "kBE7IWb7eJE":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"橘子海",
+    "track":"夏日漱石"
+  },
+  "GJNOEdQSEeQ":{
+    "album":"安和桥北",
+    "albumArtist":"宋冬野",
+    "artist":"宋冬野",
+    "track":"安和桥"
+  },
+  "2f999097601e312c8876fdc629bb182b":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"老破麻 O.S.D",
+    "track":"放空"
+  },
+  "19l4EfqpoSQ":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"シャノン",
+    "track":"暁"
+  },
+  "9GhE3tZ1oAs":{
+    "album":"人间万朵红",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"廣寒宮"
+  },
+  "3cSyzirRCAM":{
+    "album":"反转童话",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"忆游神"
+  },
+  "iVvkqHwX9Ds":{
+    "album":"耳鬼出风",
+    "albumArtist":"回春丹乐队",
+    "artist":"回春丹乐队",
+    "track":"艾蜜莉"
+  },
+  "I9M8c9u-zvI":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"梓歌",
+    "track":"绝世舞姬"
+  },
+  "jFukMybDzH0":{
+    "album":"华北浪革",
+    "albumArtist":"刘森",
+    "artist":"刘森",
+    "track":"焰火青年"
+  },
+  "ul_BOXUSbMQ":{
+    "album":"親愛的準備好要出發了嗎",
+    "albumArtist":"吳青原",
+    "artist":"吳青原",
+    "track":"二十二歲的眼睛"
+  },
+  "esUpJ1ddZkA":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"刺猬樂隊",
+    "track":"生之響往"
+  },
+  "G08O5_CsYyo":{
+    "album":"天行九歌",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"天行九歌"
+  },
+  "BV18GByBqE1r":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"小可学妹",
+    "track":"归期"
+  },
+  "S6WhdcDaZ9k":{
+    "album":"捞秋月",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"捞秋月"
+  },
+  "ohdxy_3v4RI":{
+    "album":"Orchelia's vox - オルケリアの声",
+    "albumArtist":null,
+    "artist":"Hagali",
+    "track":"Yuvi's longing - ユヴィの憧憬"
+  },
+  "NqLXMSrgCks":{
+    "album":"停著往前走",
+    "albumArtist":"哈密瓜不好吃啦",
+    "artist":"哈密瓜不好吃啦",
+    "track":"停著往前走"
   }
 }
