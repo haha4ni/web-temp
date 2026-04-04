@@ -5,6 +5,7 @@
 分析兩個JSON快取文件，檢測ID重複情況並合併文件
 """
 
+import os
 import json
 import sys
 from pathlib import Path
@@ -105,26 +106,15 @@ def remove_duplicate_ids(merged_cache):
         print(f"發現異常：ID列表長度 {len(id_list)} 與唯一ID數量 {len(unique_ids)} 不匹配")
         return merged_cache
 
-def analyze_files(file1_path=None, file2_path=None, output_path=None):
+def analyze_files(file1_path=None):
     """主要分析函數"""
     # 如果沒有提供參數，則從命令行獲取或使用默認值
-    if file1_path is None:
-        if len(sys.argv) >= 2:
-            file1_path = sys.argv[1]
-        else:
-            file1_path = input("請輸入檔案１的路徑: ").strip()
+
+    file1_path = "out.json"
     
-    if file2_path is None:
-        if len(sys.argv) >= 3:
-            file2_path = sys.argv[2]
-        else:
-            file2_path = input("請輸入檔案２的路徑: ").strip()
+    file2_path = "local-cache.json"
     
-    if output_path is None:
-        if len(sys.argv) >= 4:
-            output_path = sys.argv[3]
-        else:
-            output_path = input("請輸入輸出檔案路徑 (默認: out.json): ").strip() or "out.json"
+    output_path = "out.json"
     
     print("=== 音樂快取檔案分析報告 ===")
     print(f"檔案１: {file1_path}")
@@ -256,7 +246,18 @@ def analyze_files(file1_path=None, file2_path=None, output_path=None):
     
     # 检查重复ID
     merged_cache = remove_duplicate_ids(merged_cache)
-    
+
+    # 建立備份檔名
+    bak_path = file1_path + ".bak"
+
+    # 如果備份已存在，先刪掉
+    if os.path.exists(bak_path):
+        os.remove(bak_path)
+
+    # 如果原檔存在，改名成備份
+    if os.path.exists(file1_path):
+        os.rename(file1_path, bak_path)
+
     # 保存合併檔案
     try:
         with open(output_path, 'w', encoding='utf-8') as f:
