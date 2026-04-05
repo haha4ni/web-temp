@@ -18,28 +18,10 @@
 
 ### 基本用法
 
-```bash
-python analyze_cache.py file1.json file2.json output.json
-```
+1. 將Web Scrobbler已編輯曲目匯出存成`local-cache.json`
+2. 點擊`main.bat`執行
+3. 整合後的檔名為`out.json`
 
-### 參數說明
-
-- `file1.json` - 第一個JSON快取檔案
-- `file2.json` - 第二個JSON快取檔案  
-- `output.json` - 合併後的輸出檔案
-
-### 使用示例
-
-```bash
-# 分析並合併兩個快取檔案
-python analyze_cache.py local-cache.json local-cache2.json merged-cache.json
-
-# 使用默認輸出檔案名 (out.json)
-python analyze_cache.py local-cache.json local-cache2.json
-
-# 交互模式 - 程式會提示輸入檔案路徑
-python analyze_cache.py
-```
 
 ## 功能說明
 
@@ -93,10 +75,3 @@ python analyze_cache.py
 最終合併條目數: 325
 追加的新條目數: 175
 ```
-
-## 注意事項
-
-- 確保輸入檔案是有效的JSON格式
-- 程式會在衝突時暫停等待使用者選擇
-- 輸出檔案會覆蓋已存在的同名檔案
-- 建議在執行前備份重要檔案
