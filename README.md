@@ -10,9 +10,10 @@
 
 ### 基本用法
 
-1. 將Web Scrobbler已編輯曲目匯出存成`local-cache.json`
-2. 點擊`main.bat`執行
-3. 整合後的檔名為`out.json`
+1. 將Web Scrobbler已編輯曲目存成`local-cache.json`匯出
+2. `local-cache.json`放進根目錄下
+3. 點擊`main.bat`執行
+4. 整合後的檔名為`out.json`
 
 
 ## 功能說明
