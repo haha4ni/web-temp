@@ -1491,7 +1491,7 @@
     "album":"兰之韵",
     "albumArtist":"兰音Reine",
     "artist":"兰音Reine",
-    "track":"迷宫蝴蝶"
+    "track":"迷宮バタフライ"
   },
   "9BpzAmRwK6g":{
     "album":"半抹烟熏",
@@ -3109,7 +3109,7 @@
   },
   "o8b-IQulh1c":{
     "album":"月夜の音楽会",
-    "albumArtist":null,
+    "albumArtist":"志方あきこ",
     "artist":"志方あきこ",
     "track":"月夜の音楽会"
   },
@@ -3742,5 +3742,83 @@
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"死別"
+  },
+  "BV1HpFYz2Exr":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"晚夜微雨问海棠"
+  },
+  "BV19AKJzyERZ":{
+    "album":"反转童话",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"忆游神"
+  },
+  "BV1PXx5zeEto":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"捞秋月"
+  },
+  "BV1bPJuzgEFP":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"珠玉"
+  },
+  "BV1xy6xBSENB":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"乐鸣东方"
+  },
+  "BV1wh411T7F2":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"Letting Go"
+  },
+  "1Yp4J6KiPKo":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"彩虹节拍"
+  },
+  "RHw5NsPjJSs":{
+    "album":"なんでもにうむ",
+    "albumArtist":null,
+    "artist":"MILGRAM アマネ (CV: 田中美海)",
+    "track":"なんでもにうむ"
+  },
+  "BV1sNc1ecE53":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"愿与愁"
+  },
+  "0AxsWsgFzhk":{
+    "album":"月詩由",
+    "albumArtist":"むんもっしゅ",
+    "artist":"むんもっしゅ",
+    "track":"弱虫"
+  },
+  "UmYQ-F54Bd8":{
+    "album":"月詩由",
+    "albumArtist":"むんもっしゅ",
+    "artist":"むんもっしゅ",
+    "track":"かけた月"
+  },
+  "28CsvE3bozk":{
+    "album":"月詩由",
+    "albumArtist":"むんもっしゅ",
+    "artist":"むんもっしゅ",
+    "track":"桃色のわたあめ"
+  },
+  "5X9IDJWbdrU":{
+    "album":"月詩由",
+    "albumArtist":"むんもっしゅ",
+    "artist":"むんもっしゅ",
+    "track":"三日月の夢"
   }
 }
