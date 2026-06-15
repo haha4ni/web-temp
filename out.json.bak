@@ -2052,7 +2052,7 @@
     "track":"世末歌者"
   },
   "72dnsL5HK08":{
-    "album":"请不要带我走",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"请不要带我走"
@@ -3318,8 +3318,8 @@
     "track":"春庭雪(DJ名龙版)"
   },
   "czl7AbTz-rk":{
-    "album":"仙瑶",
-    "albumArtist":"兰音Reine",
+    "album":null,
+    "albumArtist":null,
     "artist":"兰音Reine",
     "track":"仙瑶"
   },
@@ -3598,5 +3598,137 @@
     "albumArtist":null,
     "artist":"果宝",
     "track":"Ai đưa em về"
+  },
+  "PezWFuv5L_M":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"天下"
+  },
+  "DrzsC9UFvtM":{
+    "album":"形神合一",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"哑谜"
+  },
+  "bmSkGGTcIx8":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"森森鈴蘭",
+    "track":"我反芻著你留下的寂寞"
+  },
+  "1nAYgmpxSDg":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"美丽的神话"
+  },
+  "_DPKajYd114":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"汀兰欲飞"
+  },
+  "mRma6NkHwWU":{
+    "album":"美秀集團同名專輯",
+    "albumArtist":"美秀集團",
+    "artist":"美秀集團",
+    "track":"愛情的大壞蛋"
+  },
+  "eRYpmMmBSNM":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"盗墓笔记·十年人间"
+  },
+  "yHXz5rEiUts":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"腐草为萤"
+  },
+  "FxQxNW0LSW4":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"堕"
+  },
+  "S4JLJVVjevI":{
+    "album":"Sound Check",
+    "albumArtist":"美秀集團",
+    "artist":"美秀集團",
+    "track":"捲菸"
+  },
+  "DnHU5cYxzeA":{
+    "album":"月詩由",
+    "albumArtist":"むんもっしゅ",
+    "artist":"むんもっしゅ",
+    "track":"LiLy"
+  },
+  "_TTyWOHlHZE":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"银河与星斗"
+  },
+  "Ka3r9EY4SLI":{
+    "album":"荒唐谣",
+    "albumArtist":null,
+    "artist":"Doudou",
+    "track":"荒唐谣"
+  },
+  "aI1VCvitb0I":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"葉裡",
+    "track":"诳"
+  },
+  "N-cyFU6SwUU":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"昔涟"
+  },
+  "IG1kLf0ppaE":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"心願便利貼"
+  },
+  "p13tH7Etlzc":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"王艷薇",
+    "track":"離開我的依賴"
+  },
+  "CJt51VXJyFQ":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"星炬不熄"
+  },
+  "0FXMBnqAHkU":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"森森鈴蘭",
+    "track":"好想爱这个世界啊"
+  },
+  "f2e7c390b1a521278cb00128fe2e3129":{
+    "album":"月詩由",
+    "albumArtist":"むんもっしゅ",
+    "artist":"むんもっしゅ",
+    "track":"三日月の夢"
+  },
+  "L6auklc27nk":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"Doudou",
+    "track":"荒唐谣"
+  },
+  "LM9uN7IlKSI":{
+    "album":"美秀集團同名專輯",
+    "albumArtist":"美秀集團",
+    "artist":"美秀集團",
+    "track":"偷偷愛"
   }
 }
