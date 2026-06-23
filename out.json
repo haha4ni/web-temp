@@ -174,7 +174,7 @@
     "track":"镜空"
   },
   "9Djvz1-dnWQ":{
-    "album":"你知道星星多重嗎",
+    "album":null,
     "albumArtist":null,
     "artist":"厄倫蒂兒",
     "track":"你知道星星多重嗎"
@@ -654,7 +654,7 @@
     "track":"世界赠予我的"
   },
   "T3qebI-HrfI":{
-    "album":"荒腔走板",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"荒腔走板"
@@ -1062,7 +1062,7 @@
     "track":"孑然记"
   },
   "yhsjPJAQKms":{
-    "album":"难却",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"难却"
@@ -1248,7 +1248,7 @@
     "track":"萬千花蕊慈母悲哀"
   },
   "BV1jG4y1r79s":{
-    "album":"长安姑娘",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"长安姑娘"
@@ -2100,7 +2100,7 @@
     "track":"捕夢謊"
   },
   "mgMI99meMoU":{
-    "album":"晚夜微雨问海棠",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"晚夜微雨问海棠"
@@ -2154,7 +2154,7 @@
     "track":"流星會降落在你心上"
   },
   "goROlJ4e-AE":{
-    "album":"吹梦到西洲",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"吹梦到西洲"
@@ -2232,8 +2232,8 @@
     "track":"朱隠し"
   },
   "I6ZeDBFooBM":{
-    "album":"寂寞红尘",
-    "albumArtist":"兰音Reine",
+    "album":null,
+    "albumArtist":null,
     "artist":"兰音Reine",
     "track":"寂寞红尘"
   },
@@ -2946,8 +2946,8 @@
     "track":"普通DISCO"
   },
   "Qe6mv-aJGxI":{
-    "album":"暮色回响",
-    "albumArtist":"兰音Reine",
+    "album":null,
+    "albumArtist":null,
     "artist":"兰音Reine",
     "track":"暮色回响"
   },
@@ -3216,7 +3216,7 @@
     "track":"Distance"
   },
   "BV1dv4y1K7xt":{
-    "album":"谪仙",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"谪仙"
@@ -3832,5 +3832,83 @@
     "albumArtist":null,
     "artist":"達康.come",
     "track":"我不在你的眼裡"
+  },
+  "BV1mV4y1s7ra":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"千年之恋"
+  },
+  "89r5lahMEVA":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"有點甜"
+  },
+  "YIfGArpY4YQ":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"飞花入梦"
+  },
+  "BV12N4y1W7vg":{
+    "album":"形神合一",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"比天高"
+  },
+  "BV1dZ4y187n2":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"关山酒"
+  },
+  "IHUKF2z5LiA":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"森森鈴蘭",
+    "track":"捕夢謊"
+  },
+  "EhM1G7SgMyo":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"双笙",
+    "track":"灵秀"
+  },
+  "U-bXx_4Nwx8":{
+    "album":"戀人群像物語",
+    "albumArtist":"美秀集團",
+    "artist":"美秀集團",
+    "track":"戀人"
+  },
+  "BV1CF41177dW":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"调查中"
+  },
+  "aT6056Eb11I":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"南西肯恩",
+    "track":"我也曾經想過這樣殺了我自己"
+  },
+  "BV14i4y1m7iZ":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"天下"
+  },
+  "BV1Ky4y1s7Nj":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"错位时空"
+  },
+  "pItCKf-pWg4":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"伴月同眠"
   }
 }

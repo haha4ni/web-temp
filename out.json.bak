@@ -378,7 +378,7 @@
     "track":"ディレンマの壁"
   },
   "DVZUGRHTN-Q":{
-    "album":"红玫瑰",
+    "album":null,
     "albumArtist":null,
     "artist":"折原露露",
     "track":"红玫瑰"
@@ -408,8 +408,8 @@
     "track":"白手套"
   },
   "EV14AVjszAU":{
-    "album":null,
-    "albumArtist":null,
+    "album":"月詩由",
+    "albumArtist":"むんもっしゅ",
     "artist":"この歌を届かせたいと思ったのは。",
     "track":"むんもっしゅ"
   },
@@ -624,7 +624,7 @@
     "track":"青花瓷"
   },
   "SD4VcHD7Do0":{
-    "album":"一路生花",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"一路生花"
@@ -3820,5 +3820,17 @@
     "albumArtist":"むんもっしゅ",
     "artist":"むんもっしゅ",
     "track":"三日月の夢"
+  },
+  "ohTWP8qQAYc":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"离别开出花"
+  },
+  "_bkDp_MpxH0":{
+    "album":"明天初老的我不在你眼裡",
+    "albumArtist":null,
+    "artist":"達康.come",
+    "track":"我不在你的眼裡"
   }
 }
