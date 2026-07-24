@@ -156,7 +156,7 @@
     "track":"九重楼"
   },
   "8nczFxE9Vec":{
-    "album":"九万字",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"九万字"
@@ -600,7 +600,7 @@
     "track":"日落海底"
   },
   "R1i1ma_gDrw":{
-    "album":"坠落",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"坠落"
@@ -648,7 +648,7 @@
     "track":"欧若拉"
   },
   "T1NV48US-9o":{
-    "album":"世界赠予我的",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"世界赠予我的"
@@ -1392,7 +1392,7 @@
     "track":"我的一个道姑朋友"
   },
   "jmu7SYqzars":{
-    "album":"谁是谁",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"谁是谁"
@@ -2166,7 +2166,7 @@
     "track":"下等馬"
   },
   "d87OlgbxeDM":{
-    "album":"赐我",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"赐我"
@@ -2298,8 +2298,8 @@
     "track":"废柴"
   },
   "F0fDEwVWFk4":{
-    "album":"花",
-    "albumArtist":"兰音Reine",
+    "album":null,
+    "albumArtist":null,
     "artist":"兰音Reine",
     "track":"花"
   },
@@ -2796,8 +2796,8 @@
     "track":"远旅休憩中的邂逅"
   },
   "znxl8vIjIGo":{
-    "album":"今夜且贪欢",
-    "albumArtist":"兰音Reine",
+    "album":null,
+    "albumArtist":null,
     "artist":"兰音Reine",
     "track":"今夜且贪欢"
   },
@@ -3516,8 +3516,8 @@
     "track":"我愛你-上海蟹-"
   },
   "0gLVEBUGdHI":{
-    "album":"太極",
-    "albumArtist":"兰音Reine",
+    "album":null,
+    "albumArtist":null,
     "artist":"兰音Reine",
     "track":"太極"
   },
@@ -3940,5 +3940,89 @@
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"今夜且贪欢"
+  },
+  "OI9v5RR2N0Q":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"泠鸢yousa",
+    "track":"光"
+  },
+  "wP3-pigvbME":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"我期待的不是雪，而是等不来赐我"
+  },
+  "BV1ZUKd6BE98":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"泠鸢yousa",
+    "track":"大漠旅人"
+  },
+  "dx_RrXggLA0":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"泠鸢yousa",
+    "track":"我的故事未寫完"
+  },
+  "-14hLBPIzzc":{
+    "album":"反转童话",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"反转童话"
+  },
+  "BV1Tr4y1p7k4":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"阿梓",
+    "track":"少女作妖日记"
+  },
+  "2DP_tPrqNFM":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"破碎时间"
+  },
+  "2kgkdzt45E4":{
+    "album":"兰之韵",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"审判之夜"
+  },
+  "_PAbZ6OZenY":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"芒果醬 Mango Jump",
+    "track":"團長"
+  },
+  "YoiQ0-0by74":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"泠鸢yousa",
+    "track":"航向你的海島 (现场)"
+  },
+  "p_Lwt9XYT8M":{
+    "album":"兰•音",
+    "albumArtist":"兰音Reine",
+    "artist":"兰音Reine",
+    "track":"心无所扰"
+  },
+  "lI118JeMNII":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"Bu$Y",
+    "track":"西岸小法咒"
+  },
+  "8sZSGL0fNGM":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"森森鈴蘭",
+    "track":"不老夢"
+  },
+  "6wTHWUkIBns":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"森森鈴蘭",
+    "track":"Something Just Like This"
   }
 }

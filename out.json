@@ -1398,7 +1398,7 @@
     "track":"谁是谁"
   },
   "mN10EtHkrvs":{
-    "album":"幻境中",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"幻境中"
@@ -4024,5 +4024,17 @@
     "albumArtist":null,
     "artist":"森森鈴蘭",
     "track":"Something Just Like This"
+  },
+  "4-RVpUbXD64":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"折原露露",
+    "track":"我期待的不是雪"
+  },
+  "B6tsVC6r9LA":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"森森鈴蘭",
+    "track":"我好想你"
   }
 }
