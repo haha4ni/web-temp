@@ -486,7 +486,7 @@
     "track":"泸沽寻梦"
   },
   "JqYrscVZ-HQ":{
-    "album":"君心我心",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"君心我心"
@@ -498,25 +498,25 @@
     "track":"坠蝶"
   },
   "LW6veaELpsc":{
-    "album":"成仙",
+    "album":null,
     "albumArtist":null,
     "artist":"折原露露",
     "track":"成仙"
   },
   "MMspuFrfkA4":{
-    "album":"月亮之上",
+    "album":null,
     "albumArtist":null,
     "artist":"折原露露",
     "track":"月亮之上"
   },
   "MW2D8SbQBIo":{
-    "album":"仙瑤",
+    "album":null,
     "albumArtist":null,
     "artist":"葉里",
     "track":"仙瑤"
   },
   "MlxZEf5d00M":{
-    "album":"爱你就像爱生命",
+    "album":null,
     "albumArtist":null,
     "artist":"房東的貓",
     "track":"爱你就像爱生命"
@@ -534,13 +534,13 @@
     "track":"有时候真想从这世上消失"
   },
   "NBeogDClSMQ":{
-    "album":"奢香夫人",
+    "album":null,
     "albumArtist":null,
     "artist":"凤凰传奇",
     "track":"奢香夫人"
   },
   "NOqh7-Z2KhA":{
-    "album":"免我蹉跎苦",
+    "album":null,
     "albumArtist":null,
     "artist":"黎歌Neeko",
     "track":"免我蹉跎苦"
@@ -930,7 +930,7 @@
     "track":"坠蝶"
   },
   "oUvkw3CnAxs":{
-    "album":"无情画",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"无情画"
@@ -1878,25 +1878,25 @@
     "track":"新·九九八十一"
   },
   "A64QKEHirho":{
-    "album":"绝世舞姬",
+    "album":null,
     "albumArtist":null,
     "artist":"阿梓",
     "track":"绝世舞姬"
   },
   "eEMCDQ9EIK4":{
-    "album":"天上掉下个林妹妹",
+    "album":null,
     "albumArtist":null,
     "artist":"黄诗扶",
     "track":"天上掉下个林妹妹"
   },
   "xX1FYlFEANs":{
-    "album":"九彎十八拐",
-    "albumArtist":"芒果醬Mango Jump",
+    "album":null,
+    "albumArtist":null,
     "artist":"芒果醬Mango Jump",
     "track":"九彎十八拐"
   },
   "V_hCHHS1iv0":{
-    "album":"月落一寸光",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"月落一寸光"
@@ -1908,31 +1908,31 @@
     "track":"大喜"
   },
   "O7o8QLx9Py8":{
-    "album":"勾指起誓",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"勾指起誓"
   },
   "EIXUD_qvKi4":{
-    "album":"虞兮叹",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"虞兮叹"
   },
   "EuUBS5siPUU":{
-    "album":"惊蛰",
+    "album":null,
     "albumArtist":null,
     "artist":"音阙诗听",
     "track":"惊蛰"
   },
   "3OyH3W6G7UA":{
-    "album":"瘋癲少女",
+    "album":null,
     "albumArtist":null,
     "artist":"刀醬",
     "track":"瘋癲少女"
   },
   "Da-gWaZ97fU":{
-    "album":"折风渡夜",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"折风渡夜"
@@ -1950,25 +1950,25 @@
     "track":"小雨"
   },
   "Ip77a50qGX0":{
-    "album":"失之我命",
-    "albumArtist":"兰音Reine",
+    "album":null,
+    "albumArtist":null,
     "artist":"兰音Reine",
     "track":"失之我命"
   },
   "afHU_471oD0":{
-    "album":"壁上觀",
+    "album":null,
     "albumArtist":null,
     "artist":"泠鸢yousa",
     "track":"壁上觀"
   },
   "YfiUftxC3_k":{
-    "album":"故劍動君心",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"故劍動君心"
   },
   "7VdNe9JX0DE":{
-    "album":"半壺紗",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"半壺紗"
@@ -2178,7 +2178,7 @@
     "track":"等你下课"
   },
   "g9Y-2txL-eM":{
-    "album":"遠山遇行舟",
+    "album":null,
     "albumArtist":null,
     "artist":"指尖笑",
     "track":"遠山遇行舟"
@@ -2450,8 +2450,8 @@
   "d9oRDmicjUw":{
     "album":null,
     "albumArtist":null,
-    "artist":"『半壺紗』",
-    "track":"待嫁的年華，輕紗遮紅塵"
+    "artist":"兰音Reine",
+    "track":"半壺紗"
   },
   "Z7i7iZnZ0vQ":{
     "album":"春天有腳",
@@ -4150,5 +4150,17 @@
     "albumArtist":null,
     "artist":"森森鈴蘭",
     "track":"東風志"
+  },
+  "f6wNuFOCJpU":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"小可学妹",
+    "track":"赤伶"
+  },
+  "qysBYWVY_mk":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"云汐",
+    "track":"洛春赋"
   }
 }
