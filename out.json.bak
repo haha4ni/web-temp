@@ -198,7 +198,7 @@
     "track":"ホープ・ダイヤモンドの不幸せな一生"
   },
   "BFV6rBUiy28":{
-    "album":"你若三冬",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"你若三冬"
@@ -1578,7 +1578,7 @@
     "track":"粛清マーチ"
   },
   "Vp7QfmrPEDU":{
-    "album":"下山",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"下山"
@@ -2394,8 +2394,8 @@
     "track":"生之響往"
   },
   "G08O5_CsYyo":{
-    "album":"天行九歌",
-    "albumArtist":"兰音Reine",
+    "album":null,
+    "albumArtist":null,
     "artist":"兰音Reine",
     "track":"天行九歌"
   },
@@ -2520,8 +2520,8 @@
     "track":"出山"
   },
   "kqo30HpNtiU":{
-    "album":"扬州姑娘",
-    "albumArtist":"双笙",
+    "album":null,
+    "albumArtist":null,
     "artist":"双笙",
     "track":"扬州姑娘"
   },
@@ -3582,7 +3582,7 @@
     "track":"此去半生"
   },
   "cVOA2Hrei0A":{
-    "album":"Ai đưa em về",
+    "album":null,
     "albumArtist":null,
     "artist":"果宝",
     "track":"Ai đưa em về"
@@ -4276,5 +4276,53 @@
     "albumArtist":null,
     "artist":"祖娅纳惜",
     "track":"花亦山"
+  },
+  "NI3OpWG5eC0":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"秋殇别恋"
+  },
+  "bmS_wneWvAw":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"森森鈴蘭 ",
+    "track":"故夢"
+  },
+  "rVEMTxg_LrU":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"李宗盛",
+    "track":"山丘"
+  },
+  "1ee31d30aa76a4f906448dae51915f79":{
+    "album":"蚍蜉渡海",
+    "albumArtist":null,
+    "artist":"银临",
+    "track":"裁梦为魂"
+  },
+  "3d7d2d3470433c2c983c39a701e8f02e":{
+    "album":"蚍蜉渡海",
+    "albumArtist":null,
+    "artist":"银临",
+    "track":"裁梦为魂"
+  },
+  "BV1Cv4y1m7Ub":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"赐我"
+  },
+  "ytJ_yfyELm4":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"森森鈴蘭",
+    "track":"今天沒呼吸的心情"
+  },
+  "wLRwO6XJRhg":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"果宝",
+    "track":"我想要佔據你"
   }
 }
