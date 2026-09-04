@@ -1122,7 +1122,7 @@
     "track":"愛你就像愛生命"
   },
   "Lw3SxBF9sMU":{
-    "album":"夜舞",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"夜舞"
@@ -4348,5 +4348,29 @@
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"心願便利貼"
+  },
+  "fJZMAbKJT1w":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"水奈Rin",
+    "track":"仙瑶"
+  },
+  "BV115MzzREQr":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"东洋雪莲",
+    "track":"世界上的另一个我"
+  },
+  "C8BrScCsb5A":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"折原露露",
+    "track":"人生态度"
+  },
+  "KpHl53qsWNs":{
+    "album":"Reine Reborn",
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"窃窃"
   }
 }
