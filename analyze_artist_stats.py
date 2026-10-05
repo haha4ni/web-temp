@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+from __future__ import annotations
 """
 音樂檔案藝術家統計分析工具
 分析單一JSON檔案，統計藝術家分佈和總條目數
@@ -9,22 +10,65 @@ import json
 import sys
 from pathlib import Path
 
-def load_json_file(file_path):
+UNKNOWN_ARTIST = '未知藝術家'
+UNKNOWN_ALBUM = '未知專輯'
+DEFAULT_INPUT_FILE = 'out.json'
+DEFAULT_SHOW_TOP = 15
+
+def normalize_metadata(value: str | None, default_value: str) -> tuple[str, bool]:
+    """將空值或空字串正規化為預設值，並回傳是否缺漏。"""
+    if value is None:
+        return default_value, True
+
+    normalized_value = value.strip()
+    if normalized_value == '':
+        return default_value, True
+
+    return normalized_value, False
+
+
+def calculate_percentage(count: int, total: int) -> float:
+    """安全計算百分比，避免除以零。"""
+    if total == 0:
+        return 0.0
+    return (count / total) * 100
+
+
+def load_json_file(file_path: str) -> dict[str, dict[str, str | None]] | None:
     """載入JSON檔案"""
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            return json.load(f)
+        with Path(file_path).open('r', encoding='utf-8') as file:
+            loaded_data = json.load(file)
     except FileNotFoundError:
         print(f"錯誤：找不到檔案 {file_path}")
         return None
-    except json.JSONDecodeError as e:
-        print(f"錯誤：JSON檔案格式錯誤 {file_path} - {e}")
+    except json.JSONDecodeError as error:
+        print(f"錯誤：JSON檔案格式錯誤 {file_path} - {error}")
         return None
-    except Exception as e:
-        print(f"錯誤：讀取檔案失敗 {file_path} - {e}")
+    except OSError as error:
+        print(f"錯誤：讀取檔案失敗 {file_path} - {error}")
         return None
 
-def analyze_artists(music_data, show_top=10):
+    if not isinstance(loaded_data, dict):
+        print(f"錯誤：JSON根節點必須是物件 {file_path}")
+        return None
+
+    return loaded_data
+
+
+def detect_source_platform(entry_id: str) -> str:
+    """根據條目 ID 長度判斷來源平台。"""
+    entry_id_length = len(entry_id)
+    if entry_id_length == 11:
+        return 'Youtube'
+    if entry_id_length == 12:
+        return 'Bilibili'
+    return '未知來源'
+
+def analyze_artists(
+    music_data: dict[str, dict[str, str | None]],
+    show_top: int = DEFAULT_SHOW_TOP,
+) -> tuple[dict[str, int], dict[str, int]]:
     """分析藝術家統計"""
     print(f"\n=== 音樂檔案統計分析 ===")
     print(f"總條目數: {len(music_data)}")
@@ -32,30 +76,37 @@ def analyze_artists(music_data, show_top=10):
     # 統計藝術家分佈
     artist_count = {}
     album_count = {}
+    source_count = {}
     track_without_artist = 0
     track_without_album = 0
     
     for entry_id, entry_data in music_data.items():
+        source_platform = detect_source_platform(entry_id)
+        source_count[source_platform] = source_count.get(source_platform, 0) + 1
+
         # 藝術家統計
-        artist = entry_data.get('artist', '未知藝術家')
-        if artist == '' or artist is None:
-            artist = '未知藝術家'
+        artist, artist_missing = normalize_metadata(entry_data.get('artist'), UNKNOWN_ARTIST)
+        if artist_missing:
             track_without_artist += 1
         artist_count[artist] = artist_count.get(artist, 0) + 1
         
         # 專輯統計
-        album = entry_data.get('album', '未知專輯')
-        if album == '' or album is None:
-            album = '未知專輯'
+        album, album_missing = normalize_metadata(entry_data.get('album'), UNKNOWN_ALBUM)
+        if album_missing:
             track_without_album += 1
         album_count[album] = album_count.get(album, 0) + 1
     
+    print(f"來源統計:")
+    for source_platform, count in sorted(source_count.items(), key=lambda item: item[1], reverse=True):
+        percentage = calculate_percentage(count, len(music_data))
+        print(f"- {source_platform}: {count} 首 ({percentage:.1f}%)")
+
     # 顯示藝術家統計 (Top N)
     print(f"\n=== 藝術家統計 (Top {show_top}) ===")
     sorted_artists = sorted(artist_count.items(), key=lambda x: x[1], reverse=True)
     
     for i, (artist, count) in enumerate(sorted_artists[:show_top], 1):
-        percentage = (count / len(music_data)) * 100
+        percentage = calculate_percentage(count, len(music_data))
         print(f"{i:2d}. {artist}: {count} 首 ({percentage:.1f}%)")
     
     if len(sorted_artists) > show_top:
@@ -68,7 +119,7 @@ def analyze_artists(music_data, show_top=10):
     sorted_albums = sorted(album_count.items(), key=lambda x: x[1], reverse=True)
     
     for i, (album, count) in enumerate(sorted_albums[:show_top], 1):
-        percentage = (count / len(music_data)) * 100
+        percentage = calculate_percentage(count, len(music_data))
         print(f"{i:2d}. {album}: {count} 首 ({percentage:.1f}%)")
     
     if len(sorted_albums) > show_top:
@@ -90,7 +141,7 @@ def analyze_artists(music_data, show_top=10):
     
     return artist_count, album_count
 
-def analyze_detailed_info(music_data):
+def analyze_detailed_info(music_data: dict[str, dict[str, str | None]]) -> None:
     """分析詳細資訊完整度"""
     print(f"\n=== 資料完整度分析 ===")
     
@@ -122,20 +173,20 @@ def analyze_detailed_info(music_data):
     
     print(f"有效條目數: {total_valid}")
     print(f"空條目數: {empty_entries}")
-    print(f"有基本歌曲資訊 (藝術家+歌名): {has_track_info} 首 ({(has_track_info/total_valid)*100:.1f}%)")
-    print(f"有完整資訊 (藝術家+歌名+專輯): {complete_info} 首 ({(complete_info/total_valid)*100:.1f}%)")
-    print(f"有專輯藝術家資訊: {has_album_artist} 首 ({(has_album_artist/total_valid)*100:.1f}%)")
+    print(f"有基本歌曲資訊 (藝術家+歌名): {has_track_info} 首 ({calculate_percentage(has_track_info, total_valid):.1f}%)")
+    print(f"有完整資訊 (藝術家+歌名+專輯): {complete_info} 首 ({calculate_percentage(complete_info, total_valid):.1f}%)")
+    print(f"有專輯藝術家資訊: {has_album_artist} 首 ({calculate_percentage(has_album_artist, total_valid):.1f}%)")
 
-def main():
+def main() -> None:
     """主程序"""
-    # 從命令行參數或用戶輸入獲取檔案路徑
+    # 從命令行參數取得檔案路徑，未提供時使用預設檔案
     if len(sys.argv) >= 2:
         file_path = sys.argv[1]
     else:
-        file_path = input("請輸入JSON檔案路徑: ").strip()
+        file_path = DEFAULT_INPUT_FILE
     
     # 獲取顯示數量參數
-    show_top = 10
+    show_top = DEFAULT_SHOW_TOP
     if len(sys.argv) >= 3:
         try:
             show_top = int(sys.argv[2])
@@ -194,11 +245,11 @@ if __name__ == "__main__":
         print("使用方法:")
         print("  python analyze_artist_stats.py [JSON檔案] [顯示數量]")
         print("  python analyze_artist_stats.py music.json 15")
-        print("  或者直接運行，程式會提示輸入檔案路徑")
+        print(f"  或者直接運行，程式會預設讀取 {DEFAULT_INPUT_FILE}")
         print()
         print("參數說明:")
-        print("  JSON檔案   - 要分析的音樂快取JSON檔案")
-        print("  顯示數量   - Top N 排行榜數量 (默認: 10)")
+        print(f"  JSON檔案   - 要分析的音樂快取JSON檔案（未提供時預設為 {DEFAULT_INPUT_FILE}）")
+        print(f"  顯示數量   - Top N 排行榜數量 (默認: {DEFAULT_SHOW_TOP})")
         print()
         
         if '--help' not in sys.argv and '-h' not in sys.argv:
