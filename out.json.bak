@@ -1788,7 +1788,7 @@
     "track":"快雪"
   },
   "JVRsAqm7EiM":{
-    "album":"我反芻著你留下的寂寞",
+    "album":null,
     "albumArtist":null,
     "artist":"理想混蛋",
     "track":"我反芻著你留下的寂寞"
@@ -2316,8 +2316,8 @@
     "track":"爱的供养"
   },
   "IB2eAMcSLTw":{
-    "album":"爱殇",
-    "albumArtist":"阿梓",
+    "album":null,
+    "albumArtist":null,
     "artist":"阿梓",
     "track":"爱殇"
   },
@@ -2808,7 +2808,7 @@
     "track":"广寒宫"
   },
   "HYsz1hP0BFo":{
-    "album":"STAR WALKIN’ (League of Legends Worlds Anthem)",
+    "album":null,
     "albumArtist":null,
     "artist":"Lil Nas X",
     "track":"STAR WALKIN' (League of Legends Worlds Anthem)"
@@ -4600,5 +4600,65 @@
     "albumArtist":null,
     "artist":"黄龄",
     "track":"太极太极"
+  },
+  "In6hossva-8":{
+    "album":"天兰夜",
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"玉真"
+  },
+  "abb417fdca6aef9fcef46b314b6b70a7":{
+    "album":"あやし",
+    "albumArtist":null,
+    "artist":"志方あきこ",
+    "track":"蝶よ花よ"
+  },
+  "rodJw1A4_uc":{
+    "album":"华北浪革",
+    "albumArtist":null,
+    "artist":"刘森",
+    "track":"焰火青年"
+  },
+  "9C3Nd5dRin8":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"毛不易",
+    "track":"消愁"
+  },
+  "kg1BljLu9YY":{
+    "album":"LABRINTH, SIA & DIPLO PRESENT... LSD",
+    "albumArtist":null,
+    "artist":"LSD",
+    "track":"Thunderclouds (feat. Sia, Diplo & Labrinth)"
+  },
+  "9MMIB61e6sM":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"好樂團",
+    "track":"我把我的青春給你"
+  },
+  "QSiZ32Dp-Cg":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"森森鈴蘭",
+    "track":"蘇幕遮"
+  },
+  "4e-er7PVBeA":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"李常超",
+    "track":"长安姑娘"
+  },
+  "69c61a89441ce46309c1e0f37920bd7e":{
+    "album":"ヨイマツリ",
+    "albumArtist":null,
+    "artist":"志方あきこ",
+    "track":"蝶よ花よ"
+  },
+  "nBcYrqsv5tc":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"毛不易",
+    "track":"像我這樣的人"
   }
 }
