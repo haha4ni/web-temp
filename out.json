@@ -246,7 +246,7 @@
     "track":"精卫"
   },
   "BV1G2pFzhEFN":{
-    "album":"不凡",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"不凡"
@@ -318,7 +318,7 @@
     "track":"你若三冬"
   },
   "BV1zdpczVE5S":{
-    "album":"凡人",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"凡人"
@@ -4696,5 +4696,107 @@
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"锁"
+  },
+  "BV16G3kzeEQk":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"于山"
+  },
+  "BV1bL6iBJEGt":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"烟花易冷"
+  },
+  "BV1EtFYzVE1H":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"短恨歌"
+  },
+  "BV1sLUSBKEnN":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"孑然记"
+  },
+  "BV14oa2zkEun":{
+    "album":"反转童话",
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"可我已忘记怎样唱歌"
+  },
+  "BV1aCXpY4Evg":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"跳楼机"
+  },
+  "BV18VcdevE3M":{
+    "album":"反转童话",
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"有时候真想从这世上消失"
+  },
+  "BV1puiyBQELr":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"千年泪"
+  },
+  "BV1df421o7iy":{
+    "album":"形神合一",
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"破碎时间"
+  },
+  "BV1DV4y1M7Lt":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"堕"
+  },
+  "FBed0_6d9-Q":{
+    "album":"重拾_快樂",
+    "albumArtist":null,
+    "artist":"林俊傑 JJ Lin",
+    "track":"Castle in The Air"
+  },
+  "BV1gLo9YQE7M":{
+    "album":"反转童话",
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"醒醒吧，这世上根本没有魔法"
+  },
+  "BV1J7QuBWELv":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"有你在的世界"
+  },
+  "BV11TQdYTEr8":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"九万字"
+  },
+  "BV1u24y1S79j":{
+    "album":"梦倾天下",
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"梦倾天下"
+  },
+  "BV1o99TYtEUh":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"莲梦"
+  },
+  "BV1anP5e8Eg6":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"霞光"
   }
 }
