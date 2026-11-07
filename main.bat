@@ -1,6 +1,9 @@
 @echo off
 chcp 65001 >nul
 
+echo Pulling latest changes...
+git pull
+
 echo Running Python script...
 python merge.py
 if errorlevel 1 (

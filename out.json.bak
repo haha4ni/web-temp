@@ -6,7 +6,7 @@
     "track":"画离弦"
   },
   "-v7Lw0HfqLE":{
-    "album":"捞秋月",
+    "album":null,
     "albumArtist":null,
     "artist":"兰音Reine",
     "track":"捞秋月"
@@ -409,9 +409,9 @@
   },
   "EV14AVjszAU":{
     "album":"月詩由",
-    "albumArtist":"むんもっしゅ",
-    "artist":"この歌を届かせたいと思ったのは。",
-    "track":"むんもっしゅ"
+    "albumArtist":null,
+    "artist":"むんもっしゅ",
+    "track":"この歌を届かせたいと思ったのは。"
   },
   "E_cBlpWLqkM":{
     "album":"後來",
@@ -4834,5 +4834,101 @@
     "albumArtist":null,
     "artist":"劉修齊",
     "track":"深夜的胡思亂想 feat.狗柏"
+  },
+  "632c759b8f76c28ae07106c4d09e6b50":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"志方あきこ",
+    "track":"花帰葬"
+  },
+  "BV1Bo4y1e7T9":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"折原露露",
+    "track":"人生态度"
+  },
+  "7l1gzNE9gzE":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"万重山"
+  },
+  "BV1Dv411F7yV":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"求神呐"
+  },
+  "BV1sM411M7Cq":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"王朝1982",
+    "track":"师父"
+  },
+  "PV7ZSn-ZMfo":{
+    "album":"月詩由",
+    "albumArtist":null,
+    "artist":"むんもっしゅ",
+    "track":"この歌を届かせたいと思ったのは。"
+  },
+  "BV1u1RyYpE59":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"弄舌"
+  },
+  "BV1dr4zeaE1s":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"免我蹉跎苦"
+  },
+  "pbZ7AIoEg0o":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"森森鈴蘭",
+    "track":"天下局"
+  },
+  "LxduFWbbndE":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"Mili",
+    "track":"Iron Lotus"
+  },
+  "BV1WZ4y1a75Z":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"虞兮叹"
+  },
+  "BV1fv4y1J7xW":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"折原露露",
+    "track":"师父"
+  },
+  "583a1fcd21d8c9a7fb432c46e2240d4e":{
+    "album":"兰梦循音",
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"世末歌者"
+  },
+  "BV1mM4y117db":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"折原露露",
+    "track":"朋友的酒"
+  },
+  "BV1L91rB4E6T":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"向山野"
+  },
+  "ZtcVGhK8QoU":{
+    "album":"汀兰欲飞",
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"簪花记"
   }
 }
