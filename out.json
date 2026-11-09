@@ -840,8 +840,8 @@
     "track":"情歌王20250911"
   },
   "fE08kErMxgg":{
-    "album":"小夢大半",
-    "albumArtist":"陈粒",
+    "album":"小梦大半",
+    "albumArtist":null,
     "artist":"陈粒",
     "track":"桥豆麻袋"
   },
@@ -4984,5 +4984,23 @@
     "albumArtist":null,
     "artist":"王朝1982",
     "track":"坐忘道"
+  },
+  "ag3_QokKs0U":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"指尖笑",
+    "track":"远赴人间惊鸿宴"
+  },
+  "88GIQyZ1iVU":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"指尖笑",
+    "track":"冥界大喜"
+  },
+  "IT35gZlLYXQ":{
+    "album":"帶你飛",
+    "albumArtist":null,
+    "artist":"告五人",
+    "track":"我想要佔據你"
   }
 }
