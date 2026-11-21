@@ -972,7 +972,7 @@
     "track":"咫尺相思"
   },
   "tVwqE8A6TgA":{
-    "album":"我想要占据你",
+    "album":null,
     "albumArtist":null,
     "artist":"果宝",
     "track":"我想要占据你"
@@ -3048,7 +3048,7 @@
     "track":"我喜歡你"
   },
   "jXgnLKceKcA":{
-    "album":"探故知",
+    "album":null,
     "albumArtist":null,
     "artist":"浅影阿",
     "track":"探故知"
@@ -5012,13 +5012,13 @@
   "Ma1r0TYRDeQ":{
     "album":null,
     "albumArtist":null,
-    "artist":" 兰音Reine",
+    "artist":"兰音Reine",
     "track":"緣分一道橋"
   },
   "7QERRd4lAtw":{
     "album":null,
     "albumArtist":null,
-    "artist":" 兰音Reine",
+    "artist":"兰音Reine",
     "track":"雨愛"
   },
   "KUpFmuRCJpc":{
@@ -5032,5 +5032,47 @@
     "albumArtist":null,
     "artist":"咬人猫",
     "track":"丹青"
+  },
+  "5d6b5174d20e193004633ff592a211f5":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"指尖笑",
+    "track":"道也"
+  },
+  "EicNlzqF1-8":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"森森鈴蘭",
+    "track":"崴崴孟孟一起去日本"
+  },
+  "7piD9DYwp0k":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"兰音Reine",
+    "track":"今晚派对"
+  },
+  "tYQ1Okyi3g4":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"2 Chainz & Wiz Khalifa",
+    "track":"We Own It"
+  },
+  "kfXdP7nZIiE":{
+    "album":"最偉大的作品",
+    "albumArtist":null,
+    "artist":"周杰倫",
+    "track":"等你下課"
+  },
+  "dce207eb28bd273f195e85039665e53c":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"指尖笑",
+    "track":"道也"
+  },
+  "2NchzP_jzoA":{
+    "album":null,
+    "albumArtist":null,
+    "artist":"一只白羊",
+    "track":"大天蓬"
   }
 }
